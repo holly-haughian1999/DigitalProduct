@@ -269,6 +269,28 @@ hr{
    
 }
 
+.gridfooter{
+    content: "";
+    clear: both;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 7em 2em 0 10em;
+    list-style: none;
+    margin-top: -7em;
+    margin-left: 11.5em;
+
+   
+}
+
+.links{
+    list-style: none;
+    color: white;
+
+}
+
 .grid3 div{
     padding: 1em;
    
@@ -430,10 +452,11 @@ hr{
     margin-top: 1.8em;
     background-color:  #242627;
     margin-bottom: -4em;
+    color: white;
 }
 footer{
     text-align: center;
- 
+    color: white;
     padding: 0 0 4em 0;
     
  }
@@ -457,6 +480,7 @@ footer{
     height:32px;
     font-size:14px;
     transition: all 0.2s ease-in-out;
+    color: white;
     }
 
     .button:hover { 
@@ -468,7 +492,7 @@ footer{
         padding: 0 15px;
         cursor: pointer;
         height:32px;
-        font-size:14px;
+        font-size: 20px;
         transition: all 0.2s ease-in-out;
         }
         .button:hover { 
@@ -511,10 +535,7 @@ footer{
  }
 
  .button1{
-     height: 5.2em;
-     width: 5.2em;
-     margin-bottom: 0.7em;
-     margin-right: 1em;
+     color: white;
  }
 
  .button2{
@@ -527,6 +548,28 @@ footer{
     height: 7em;
     width: 7em;
  }
+
+ 
+ a:link {
+    color: white;
+        background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 
